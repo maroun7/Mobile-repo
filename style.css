@@ -15,7 +15,7 @@ body {
   justify-content: flex-start;
   background-image: url(images/base-2.png);
 }
- 
+
 .background-image-1 {
   background-image: url("icons/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
   top: 104px;
   position: absolute;
 }
- 
+
 .status-bar {
   list-style-type: none;
   display: flex;
@@ -33,7 +33,7 @@ body {
   align-content: center;
   height: 44px;
 }
- 
+
 .time-text {
   width: 54px;
   height: 21px;
