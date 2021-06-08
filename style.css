@@ -129,7 +129,8 @@ body {
   color: #7f8cff;
   text-decoration: none;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 60px;
+  margin-top: -10px;
 }
 
 .connect:hover {
@@ -143,6 +144,7 @@ body {
   text-decoration: none;
   list-style-type: none;
   align-items: flex-start;
+  margin-left: 20px;
 }
 
 .social-media-icons a {
