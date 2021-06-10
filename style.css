@@ -82,10 +82,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 114px;
-  width: 375px;
+  width: 355px;
   height: 604px;
   list-style-type: none;
+  padding-left: 20px;
 }
 
 .primary-text {
@@ -100,7 +100,6 @@ body {
   width: 300px;
   height: 150px;
   top: 114px;
-  padding-left: 20px;
   margin-top: 100px;
 }
 
@@ -116,39 +115,14 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding-left: 20px;
-}
-
-.link {
-  position: relative;
-  text-decoration: none;
-  height: 24px;
-}
-
-.connect {
-  position: static;
-  width: 130px;
-  height: 24px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: -20px;
-}
-
-.connect:hover {
-  opacity: 0.7;
 }
 
 .social-media {
   position: relative;
   list-style-type: none;
   display: inline-block;
-  margin-top: -9px;
-  margin-left: -30px;
+  padding: 1px;
+  margin: 10px 0 10px 0;
 }
 
 li {
@@ -203,12 +177,17 @@ li a:hover {
 }
 
 .project-title {
+  position: static;
+  display: flex;
+  align-items: center;
   width: 295px;
-  height: 25px;
-  font-weight: 500;
+  height: 80px;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 40px;
-  color: #172b4d;
-  padding-bottom: 20px;
+  color: #172B4D;
+  margin: 1px;
 }
 
 .tags {
@@ -284,7 +263,7 @@ li a:hover {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  height: 40px;
+  height: 50px;
   background-color: #fff;
   width: 124px;
 }
@@ -332,6 +311,8 @@ li a:hover {
 
 .met {
   color: #7f8cff;
+  margin: 10px 0 10px 0;
+  font-family: poppins, sans-serif;
 }
 
 .card-button-1 {
