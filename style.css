@@ -122,6 +122,7 @@ body {
 .link {
   position: relative;
   text-decoration: none;
+  height: 24px;
 }
 
 .connect {
@@ -178,7 +179,7 @@ li a:hover {
   flex-direction: column;
   padding: 16px;
   width: 327px;
-  height: 552px;
+  height: 610px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -187,8 +188,8 @@ li a:hover {
 }
 
 .card-structure {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
@@ -203,10 +204,11 @@ li a:hover {
 
 .project-title {
   width: 295px;
-  height: 30px;
-  font-weight: 700;
-  font-size: 32px;
+  height: 25px;
+  font-weight: 500;
+  font-size: 40px;
   color: #172b4d;
+  padding-bottom: 20px;
 }
 
 .tags {
@@ -218,7 +220,6 @@ li a:hover {
   height: 32px;
   align-items: center;
   padding: 1px;
-  margin-top: -15px;
 }
 
 .client {
@@ -240,7 +241,6 @@ li a:hover {
   color: #344563;
   width: 295px;
   height: 70px;
-  margin-top: -25px;
 }
 
 .tags2 {
@@ -252,7 +252,6 @@ li a:hover {
   width: 203px;
   height: 24px;
   padding: 1px;
-  margin-top: -2px;
 }
 
 .lang-block {
@@ -288,7 +287,6 @@ li a:hover {
   height: 40px;
   background-color: #fff;
   width: 124px;
-  margin-top: -5px;
 }
 
 .card-button:hover {
