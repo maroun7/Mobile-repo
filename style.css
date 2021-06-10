@@ -167,7 +167,6 @@ li a:hover {
   opacity: 0.7;
 }
 
-
 .works {
   font-family: poppins, sans-serif;
   display: grid;
@@ -228,13 +227,13 @@ li a:hover {
   font-size: 13px;
 }
 
-.role{
+.role {
   font-weight: 600;
   font-size: 13px;
   color: #7a869a;
 }
 
-.text{
+.text {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -337,7 +336,7 @@ li a:hover {
   color: #7f8cff;
 }
 
-.card-button-1{
+.card-button-1 {
   font-family: poppins, sans-serif;
   font-weight: 700;
   font-size: 17px;
